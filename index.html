@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অনুরণন - Nonprofit Organization</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <!-- font-awesome and daisyUI Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.17.0/dist/full.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5fc4420cfa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>অনুরণন</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#donate"><i class="fas fa-hand-holding-heart"></i> Donate</a></li>
+                <li><a href="#join"><i class="fas fa-users"></i> Join Us</a></li>
+                <li><a href="#activity"><i class="fas fa-tasks"></i> Activities</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2 class="diff-text">Making a Difference Together</h2>
+        <p>Empowering communities and creating positive impact for a better tomorrow.</p>
+        <a href="#donate" class="cta-button">Support Our Cause</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>অনুরণন একটি অরাজনৈতিক, কল্যাণমূলক ও স্বেচ্ছাসেবী সংগঠন।...</p>
+        <div class="icon-grid">
+            <div class="icon-item">
+                <i class="fas fa-book"></i>
+                <span>Education</span>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-heartbeat"></i>
+                <span>Health</span>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-hands-helping"></i>
+                <span>Community</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate">
+
+        <h2 class="font-medium">Support Our Cause</h2>
+        <p>Your donations help us continue our mission and extend our outreach to those who need it the most. Every
+            contribution makes a significant impact.</p>
+        <h4>এখন পর্যন্ত প্রাপ্ত:</h4>
+        <div id="donation-total">০.০০ টাকা</div>
+
+        <div class="payment-info" id="paymentInfo">
+            <p>Send Money<br>
+                with reference <span class="font-semibold">"Donation"</span> to any of the following numbers</p>
+
+            <!-- BKash -->
+            <a class="Card-b All-cards mb-3 cursor-default" href="#paymentInfo"><i class="fa-solid fa-dove"></i>_BKash:
+                016 1488
+                7878</a>
+
+            <!-- Nagad -->
+            <a class="Card-n All-cards mb-3 cursor-default" href="#paymentInfo"><i
+                    class="fa-solid fa-comments-dollar"></i>_Nagad:
+                016 1488
+                7878</a>
+
+            <!-- Rocket -->
+            <a class="Card-r All-cards cursor-default" href="#paymentInfo"><i
+                    class="fa-regular fa-paper-plane"></i>_Rocket: 016
+                1488 78784</a>
+
+        </div>
+
+
+        <!-- Add a button to show payment info -->
+        <a href="javascript:void(0);" class="button" onclick="showPaymentInfo()">Show Payment Info</a>
+    </section>
+
+    <section id="join">
+        <h2>Join Us</h2>
+        <p>Become a part of Anuronon and help us bring positive change. Together, we can achieve great things!</p>
+        <a href="https://forms.gle/kMV6wum9ZWAFgzj57" class="button join-button">Join</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question, proposal or want to know more about our work? Reach out to us and we'll get back to you as
+            soon as possible.</p>
+        <form>
+            <input class="" type="text" name="name" placeholder="Your Name" required>
+
+            <input class="" type="email" name="email" placeholder="Your Email" required>
+
+            <textarea class="rounded-2xl" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 অনুরণন. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/anuranan.2024" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://youtube.com/@anuranan.2024" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="/public/script.js"></script>
+</body>
+
+</html>
